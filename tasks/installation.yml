@@ -1,7 +1,7 @@
-- name: Template a file to /etc/file.conf
+- name: Template a file to ~/hello.txt
   template:
-    src: /mytemplates/foo.j2
-    dest: /etc/file.conf
-    owner: bin
-    group: wheel
-    mode: '0644'
+    src: templates/hello.jinja2
+    dest: ~/hello.txt
+    owner: user
+    group: user
+    mode: '0744'

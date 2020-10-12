@@ -1,9 +1,9 @@
 galaxy_info:
-  author: Panoramik
-  description: Docker role
-  company: Panoramik
+  author: Vanek
+  description: template-role
+  company: home-home
   license: MIT
-  min_ansible_version: 2.4
+  min_ansible_version: 0.0.0.0.0.0.1
   galaxy_tags: []
 
 dependencies: []
