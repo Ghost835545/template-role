@@ -2,6 +2,6 @@
   template:
     src: templates/hello.j2
     dest: ~/hello.txt
-    owner: user
-    group: user
+    owner: jenkins
+    group: jenkins
     mode: '0744'
