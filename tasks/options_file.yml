@@ -1,6 +1,6 @@
 - name: Template a file to ~/hello.txt
   template:
-    src: templates/hello.jinja2
+    src: templates/hello.j2
     dest: ~/hello.txt
     owner: user
     group: user
